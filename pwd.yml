@@ -81,6 +81,7 @@ services:
         bench install-app payments;
         bench install-app erpusa;
         bench install-app billing_customizations;
+        bench set-config -g server_script_enabled 1
         bench migrate;
 
   db:
